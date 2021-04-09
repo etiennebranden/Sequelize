@@ -2,21 +2,26 @@
 <html lang="en">
     <head>
         <title>Branden Etienne</title>
-        <link rel="stylesheet" href=style.css>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
     </head>
     <body>
-        <h1>Branden Etienne</h1>
-        <script src="script.js"></script>
-        <table class="table is-fullwidth is-bordered is-narrow is-striped">
-            <thead>
-                <tr>
-                    <th><abbr title="Hall ID">ID</abbr></th>
-                    <th><abbr title="Hall Name">Name</abbr></th>
-                    <th><abbr title="Hall Address">Address</abbr></th>
-                </tr>
-            </thead>
-            <tbody class='list'></tbody>
-        </table>
+        <h1 class='title'>Branden Etienne</h1>
+        <div id="chartContainer" style="height: 370px; width: 100%;"></div>
+        <section>
+            <script src="script.js"></script>
+            <table class="table is-fullwidth is-bordered is-narrow is-striped">
+                <h2 class='subtitle'>Diners Available on UMD Campus</h2>
+                <thead>
+                    <tr>
+                        <th><abbr title="Hall ID">ID</abbr></th>
+                        <th><abbr title="Hall Name">Name</abbr></th>
+                        <th><abbr title="Hall Address">Address</abbr></th>
+                    </tr>
+                </thead>
+                <tbody class='list'></tbody>
+            </table>
+        </section>
     </body>
 </html>
